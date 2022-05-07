@@ -5,8 +5,8 @@ function Header() {
     <header id="header">
       <div className="header">
         <nav>
-          <div class="menu">
-            <ul class="showing">
+          <div className="menu">
+            <ul className="showing">
               <li>
                 <a href="#header" id="Rock_Friends">
                   RockFriends
@@ -20,7 +20,7 @@ function Header() {
               </li>
 
               <li>
-                <a href="" id="Galeria">
+                <a href="#galeria" id="Galeria">
                   Galeria
                 </a>
               </li>
@@ -32,7 +32,7 @@ function Header() {
             </ul>
           </div>
         </nav>
-        <div class="inner">
+        <div className="inner">
           <h2>
             <strong>
               Rock
