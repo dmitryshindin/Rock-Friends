@@ -1,6 +1,6 @@
 import React from "react";
-import Galeria from "./Galeria";
-import Header from './Header';
+import Galeria from "./Galeria/Galeria";
+import Header from "./Header/Header";
 
 function App() {
   return (
