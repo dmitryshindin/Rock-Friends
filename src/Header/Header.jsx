@@ -1,4 +1,3 @@
-import ThreeDRotation from "@mui/icons-material/ThreeDRotation";
 import "./Header.css";
 
 function Header() {
@@ -7,7 +6,7 @@ function Header() {
       <div className="header">
         <nav>
           <div class="menu">
-            <ul>
+            <ul class="showing">
               <li>
                 <a href="#header" id="Rock_Friends">
                   RockFriends
@@ -15,9 +14,6 @@ function Header() {
               </li>
 
               <li>
-                <div>
-                  <ThreeDRotation />
-                </div>
                 <a href="" id="Menu">
                   Menu
                 </a>
