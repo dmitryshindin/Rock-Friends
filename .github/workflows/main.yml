@@ -10,6 +10,9 @@ jobs:
         name: Checkout
         uses: actions/checkout@v2
       -
+        name: Install node modules
+        run: npm i
+      -
         name: Build GH Pages
         run: npm run build
       -
